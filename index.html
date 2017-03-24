@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet"> 
+  <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+</head>
+<body>
+  <div class="container-fluid">
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Isaac Asimov</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Philip K. Dick</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Paco</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">More Authors</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Isaac Asimov</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+    </ul>
+    
+    <div>
+      <img src="books.jpg" class="img-fluid" alt="Responsive image">
+      <div class="row">
+        <div class="col">
+          <img src="PhilipDick.jpg">
+        </div>
+        <div class="col">
+          <div class="jumbotron">
+            <h1>Philip K. Dick</h1>
+            <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean bibendum egestas convallis. Integer condimentum sem nec ex sodales, nec laoreet nisl aliquet. Vivamus ut maximus ante, eget commodo purus. Vivamus ut congue neque. Fusce euismod libero nunc. Morbi vehicula vehicula pulvinar. Aliquam imperdiet turpis sed metus dictum iaculis. Sed nibh turpis, venenatis ut ligula vitae, porttitor malesuada ex. Vestibulum ut varius est, in consequat neque. Aliquam non sapien faucibus, posuere quam bibendum, gravida diam.
+            </p>
+            <p>
+            Nunc id mauris ut purus blandit dictum. Proin lacinia enim non tortor cursus hendrerit. Cras ut tincidunt nisl. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla elementum quis nunc vitae egestas. Donec molestie lacinia leo, eu bibendum erat. Quisque non tincidunt neque. Curabitur mattis orci a lectus accumsan mollis. Praesent tempor rutrum interdum. Aliquam semper odio vitae velit aliquet, quis consectetur urna tempor. Praesent varius mollis auctor.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <section style="background-color: black">
+    <div class="background">    
+
+      <div class="biography">
+        <blockquote id="quote-text"><p></p></blockquote>
+      </section>
+
+      <script type="text/javascript">
+        var quote = document.getElementById("quote-text");
+        quotesList = [
+        "Violence is the last refuge of the incompetent.",
+        "Humanity has the stars in its future, and that future is too important to be lost under the burden of juvenile folly and ignorant superstition.",
+        "Never let your sense of morals get in the way of doing what's right.",
+        "Life is pleasant. Death is peaceful. It's the transition that's troublesome.",
+        "The saddest aspect of life right now is that science gathers knowledge faster than society gathers wisdom.",
+        "People who think they know everything are a great annoyance to those of us who do.",
+        ]
+        function fadeIn() {
+          quote.innerHTML = quotesList[Math.floor(Math.random() * quotesList.length)];
+          quote.className = "visible";
+        }
+
+        function fadeOut() {
+          quote.className = "hidden";
+        }
+
+        setInterval(function(){
+          if(quote.className === "visible"){
+            fadeOut();
+          }
+          else{
+            fadeIn();
+          }
+        }, 3000);
+
+        document.addEventListener("DOMContentLoaded", function(event) { 
+          quote.innerHTML = quotesList[Math.floor(Math.random() * quotesList.length)];
+          fadeIn();
+        });
+      </script> -->
+
+      <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    </body>
+    </html>
